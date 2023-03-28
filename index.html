@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pojistenci</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Hlavní stránka</a>
+        <a href="#news">Naše pojišťovna</a>
+        <a href="#contact">Kontakt</a>
+      </div>
+<h1>Pojištěnci</h1>
+
+<div class="designtabulky">
+<form>
+    <img src="/Users/terka/Desktop/terezakom/ahoj/finalni_projekt/project-tereza/obrazky/icon.png" alt="ikonka" class=".center"> <br>
+    <p>Zadejte údaje nového pojištěnce</p>
+    <label for="jmeno"></label>
+    <input type="text" id="jmeno" placeholder="Jméno">
+    <label for="prijmeni"></label>
+    <input type="text" id="prijmeni" placeholder="Přijmení">
+    <label for="telefon"></label>
+    <input type="telefon" id="telefon" placeholder="telefon">
+    <label for="vek"></label>
+    <input type="text" id="vek" placeholder="věk">
+    <input type="submit" value="Přidat">¨
+
+    <div class="seznaminputu">
+        </form>
+        <br>
+        <table id="tabulkaPojistencu">
+            <thead>
+            <tr>
+                <th colspan="5">Seznam pojištěnců</th>
+            </tr>
+            <tr>
+                <th>Jméno</th>
+                <th>Příjmení</th>
+                <th>Telefon</th>
+                <th>Věk</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+        <!-- Zde se vygeneruji radky z index.js -->
+            </tbody>
+
+        </table>
+    </div>    
+</div>
+</body>
+</html>

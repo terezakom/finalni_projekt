@@ -1,0 +1,37 @@
+{
+  "pojistenci": [
+    {
+      "jmeno": "Tereza",
+      "prijmeni": "Kom",
+      "telefon": "745 450 450",
+      "id": 8
+    },
+    {
+      "jmeno": "Pavel",
+      "prijmeni": "Novotny",
+      "telefon": "750 477 477",
+      "id": 9
+    },
+    {
+      "jmeno": "sebi",
+      "prijmeni": "viet",
+      "telefon": "44444444444444",
+      "vek": "44",
+      "id": 10
+    },
+    {
+      "jmeno": "sebi",
+      "prijmeni": "viet",
+      "telefon": "44444444444444",
+      "vek": "44",
+      "id": 12
+    },
+    {
+      "jmeno": "",
+      "prijmeni": "",
+      "telefon": "",
+      "vek": "",
+      "id": 13
+    }
+  ]
+}
